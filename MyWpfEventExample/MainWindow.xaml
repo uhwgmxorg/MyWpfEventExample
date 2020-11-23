@@ -1,0 +1,13 @@
+﻿<Window x:Class="MyWpfEventExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWpfEventExample"
+        mc:Ignorable="d"
+        Title="MyWpfEventExample" Height="450" Width="800">
+    <Grid>
+        <Button Content="Tool Window" HorizontalAlignment="Right" Margin="0,0,10,35" VerticalAlignment="Bottom" Width="104" Click="Button_Click_ToolWindow"/>
+        <Button Content="Close" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="104" Click="Button_Click_Close"/>
+    </Grid>
+</Window>
